@@ -1,0 +1,18 @@
+digraph G {
+
+  v0 [label="0",shape="circle"]
+  v1 [label="1",shape="circle"]
+  v2 [label="2",shape="circle"]
+  v3 [label="3",shape="doublecircle"]
+  v4 [label="",style="invis"]
+
+  v4 -> v0 [style="bold"]
+  v0 -> v1 [label="a"]
+  v0 -> v2 [label="b"]
+  v1 -> v0 [label="a"]
+  v1 -> v3 [label="b"]
+  v2 -> v2 [label="a"]
+  v2 -> v3 [label="b"]
+  v3 -> v3 [label="a, b"]
+
+}
